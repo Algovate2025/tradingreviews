@@ -2118,10 +2118,14 @@ footer .modal .modal-header .modal-subtitle,
 <div class="search-box">
 <input id="searchInput" placeholder="Broker oder Trading-Plattform suchen..." type="text"/>
 <button id="searchBtn" class="btn btn-primary btn-search" type="button">Suchen</button>
-</div><video autoplay="" loop="" muted="" playsinline="" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:16px;display:block;">
-<source src="/videos/hero.mp4.mp4" type="video/mp4"/>
-            Dein Browser unterstützt kein HTML5-Video.
-        </video>
+</div><div class="hero-video-clip" style="border-radius:16px; overflow:hidden;">
+  <video autoplay loop muted playsinline preload="none" poster="/og-image.jpg"
+         style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block; border-radius:16px;">
+    <source src="/hero.mp4" type="video/mp4">
+    Dein Browser unterstützt kein HTML5-Video.
+  </video>
+</div>
+
 <div class="stats-grid">
 <div class="stat-card">
 <div class="card">
