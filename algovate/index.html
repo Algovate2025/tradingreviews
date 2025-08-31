@@ -1,11 +1,12 @@
 
+
 <!DOCTYPE html>
 
 <html lang="de">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Algovate Erfahrungen &amp; Bewertungen | TradingReviews</title>
+<title>Algovate Erfahrungen 2025 ▷ Test, Bewertungen & echte Resultate</title>
 <meta content="Algovate Erfahrungen: Echte Nutzerbewertungen, Vor- &amp; Nachteile, Kosten und Performance. Unabhängiger Test – 4,7/5 aus 59 Reviews." name="description"/>
 <meta content="Algovate Bewertungen, Algovate Erfahrungen, Algovate Test, Trading Bot Bewertungen, KI Trading Erfahrungen" name="keywords"/>
 <meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="robots"/>
@@ -191,7 +192,7 @@
 @media (max-width:640px){.verify-list{grid-template-columns:1fr}}
 .verify-item{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border-radius:12px;background:#fff;border:1px solid #eef2f7;box-shadow:0 1px 1px rgba(2,8,20,.04);color:#1f2937;font-weight:600}
 .verify-item::before{content:"";flex:0 0 auto;display:inline-grid;place-items:center;width:22px;height:22px;border-radius:999px;background:#0ea5e9;box-shadow:0 1px 0 rgba(255,255,255,.7),inset 0 -1px 0 rgba(0,0,0,.08);margin-top:2px;-webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"white\" d=\"M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"/></svg>') no-repeat center/60% 60%;mask:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"white\" d=\"M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"/></svg>') no-repeat center/60% 60%}</style><style>
-/* === Footer full-width override === */
+/* === Footer full-width override (deaktiviert durch Ultimate Fix) === */
 #site-footer .footer-content{
   max-width: none !important;
   width: 100% !important;
@@ -3853,13 +3854,17 @@ br.badge-mobile-br { display: none; }
   gap:8px;                    /* a touch more space */
 }
 </style>
-<link href="https://tradingreviews.io/" rel="home"/></head>
+<link href="https://tradingreviews.io/" rel="home"/><style id="logo-click-fix">
+/* Clickable logo fix without changing look */
+header.header{position:sticky;top:0;z-index:1000}
+header.header .logo{position:relative;z-index:1001}
+</style></head>
 <body>
 <!-- Algovate Header Logo (inserted) -->
 <!-- Header -->
 <header class="header">
 <div class="header-content">
-<a aria-label="TradingReviews – Startseite" class="logo" href="https://tradingreviews.io/">
+<a aria-label="TradingReviews – Startseite" class="logo" href="/" style="text-decoration:none;color:inherit;cursor:pointer">
 <div aria-hidden="true" class="logo-icon">TR</div>
 <span class="logo-text">TradingReviews</span>
 </a>
@@ -10436,5 +10441,36 @@ Anschließend werden Daten gelöscht oder anonymisiert.</p>
 </div>
 </div>
 </div>
+<script>
+(function(){
+  try{
+    var link = document.querySelector('header.header a.logo') || document.querySelector('header a.logo');
+    if(link){
+      link.addEventListener('click', function(e){
+        // if anything blocked default, ensure we still navigate
+        if(e.defaultPrevented){ window.location.href = '/'; return false; }
+      }, true);
+      link.addEventListener('auxclick', function(e){
+        if(e.button===1){ window.location.href = '/'; }
+      });
+    }
+  }catch(_){}
+})();
+</script>
+<style id="footer-centering-ultimate">
+/* Ultimative Zentrierung: erzwingt gleichmäßigen Abstand links/rechts im Footer */
+#site-footer .footer-content {
+  box-sizing: border-box !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 48px !important;
+}
+</style>
+
 </body>
 </html>
