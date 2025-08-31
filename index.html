@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html lang="de">
@@ -2071,6 +2070,12 @@ footer .modal .modal-header .modal-subtitle,
 }
 </style>
 
+
+<style>
+@media (min-width: 1024px){
+  .footer-content{grid-template-columns: repeat(5, minmax(180px, 1fr)) !important; gap: 28px !important;}
+}
+</style>
 </head>
 <body>
 <!-- Cookie Banner -->
@@ -5878,6 +5883,7 @@ console.log('TradingReviews System vollständig geladen - Alle Modals und Artike
 <li><a href="#" onclick="openFooterModal('blog'); return false;">Blog</a></li>
 <li><a href="#" onclick="openFooterModal('contact'); return false;">Kontakt</a></li>
 </ul>
+
 </div>
 <div>
 <h4>Für Broker</h4>
@@ -5907,8 +5913,19 @@ console.log('TradingReviews System vollständig geladen - Alle Modals und Artike
 <li><a href="#" onclick="openFooterModal('terms'); return false;">AGB</a></li>
 <li><a href="#" onclick="openFooterModal('cookies'); return false;">Cookie-Einstellungen</a></li>
 <li><a href="#" onclick="openFooterModal('transparency'); return false;">Transparenzbericht</a></li>
+
 </ul>
 </div>
+<div>
+  <h4 style="font-size:1rem;margin-bottom:12px;color:#e5e7eb;font-weight:700">ANBIETERPROFILE</h4>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li><a href="/algovate/">Algovate</a></li>
+    <li><a href="https://www.etoro.com/de/" target="_blank" rel="noopener nofollow">eToro</a></li>
+    <li><a href="https://3commas.io/" target="_blank" rel="noopener nofollow">3Commas</a></li>
+    <li><a href="/">Weitere</a></li>
+  </ul>
+</div>
+
 </div>
 <div style="border-top:1px solid rgba(255,255,255,0.1);margin-top:32px;padding-top:24px;text-align:center;color:var(--muted)">
 <p>© 2025 TradingReviews GmbH. Alle Rechte vorbehalten. • TrustScore™ ist eine eingetragene Marke.</p>
