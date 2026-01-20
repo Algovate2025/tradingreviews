@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://tradingreviews.io/sitemap-index.xml
+
+Sitemap: https://tradingreviews.io/sitemap.xml
